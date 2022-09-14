@@ -1,6 +1,6 @@
 // 报表子组件
 import React from 'react';
-import TableCmp from '../chartCmp/tableCmp';
+import TableCmp from '../chartCmp/TableCmp';
 import LiquidCmp from '../chartCmp/LiquidCmp';
 import UnlineDualAxesCmp from '../chartCmp/UnlineDualAxesCmp';
 import '../index.css';

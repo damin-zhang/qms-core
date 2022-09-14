@@ -290,7 +290,7 @@ export var customPage = [{
 {
   NO: 'eChartsTest',
   CAPTION: 'eChartsTest',
-  COMPONENT: require('../pages/reportManage/eCharts').default
+  COMPONENT: require('../pages/reportManage/echarts').default
 }, // 质量追溯
 {
   NO: 'RawMaterialQT',
