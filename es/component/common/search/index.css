@@ -1,0 +1,23 @@
+.searchSel .ant-form-item-control-input-content{
+  display: flex!important;
+}
+.searchSel .ant-form-item-label > label::after{
+  display: none!important;
+}
+.inputAllowClear .anticon.ant-input-clear-icon-hidden, .ant-input-clear-icon-hidden{
+  visibility: visible;
+}
+/* 第三方图标样式 */
+.editorFieldThirdIcons{
+  float: left;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+.editorFieldThirdIcons svg{
+  width: 16px;
+  height: 16px;
+}
+.editorFieldThirdIcons path{
+  fill:inherit
+}
+

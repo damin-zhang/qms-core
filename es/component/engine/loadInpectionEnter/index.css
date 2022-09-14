@@ -1,0 +1,192 @@
+#enter-box {
+  height: 100%;
+}
+
+.enter-btn-list .ant-btn {
+  margin: 0 !important;
+}
+
+.enter-head-data p {
+  display: inline-block;
+  width: 25%;
+}
+
+.enter-body {
+  min-height: 241px;
+}
+
+.enter-body .ant-select.custom-css .ant-select-selector {
+  background-color: transparent;
+  color: inherit;
+}
+
+.enter-body .ant-select.custom-css .ant-select-arrow {
+  color: inherit;
+}
+
+.ant-select {
+  color: inherit;
+}
+
+.enter-body .ant-table .ant-table-header .ant-table-thead th.ant-table-cell span {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.enter-body .ant-table-body {
+  height: calc(100% - 39px);
+}
+
+.enter-body .ant-table-cell {
+  padding: 2px 6px !important;
+  margin: 0 !important;
+  word-break: break-all;
+  white-space: break-spaces;
+  overflow-wrap: break-word;
+}
+
+.enter-body .ant-table-cell .ant-form-item {
+  margin: 0 !important;
+}
+
+.enter-body .ant-form-item-control-input-content {
+  display: flex;
+}
+
+.enter-body .ant-form .ant-input:focus,
+.enter-body .ant-form .ant-input-focused {
+  box-shadow: 0 0 0 2px rgb(33 115 70);
+}
+
+.enter-body .ant-form .ant-input.ng-cell {
+  background: #d9363e;
+  color: #fff;
+}
+
+.enter-body .ant-form .ant-input.warn-cell {
+  background: #ffc107;
+  color: #fff;
+}
+
+#inspectionForm {
+  height: calc(100% - 53px);
+  padding: 0;
+}
+
+#inspectionForm .ant-table-wrapper {
+  height: 100% !important;
+}
+
+#inspectionForm .ant-table-wrapper .ant-table {
+  height: 100%;
+}
+
+#inspectionForm .ant-table-wrapper.paging .ant-table {
+  height: calc(100% - 32px);
+}
+
+.enter-body .ant-form .ant-input {
+  border: none !important;
+  box-shadow: 0 0 0 1px #d9d9d9;
+  text-align: center;
+}
+
+.enter-body .inspection-label {
+  display: inline-block;
+  width: 10px;
+}
+
+.enter-body .null-element {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+}
+
+.enter-body .ant-table-thead>tr>th {
+  background: #1890ff;
+  border-bottom: 1px solid #d9d9d9;
+  color: #fff;
+}
+
+.enter-body .ant-table-tbody>tr>td {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.enter-body .ant-table.ant-table-bordered thead>tr>th,
+.enter-body .ant-table.ant-table-bordered tbody>tr>td,
+.enter-body .ant-table.ant-table-bordered tfoot>tr>th {
+  border-right: 1px solid #d9d9d9 !important;
+}
+
+.enter-body .ant-input[disabled],
+.enter-body .ant-picker-input>input[disabled],
+.enter-body .ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector,
+.enter-body .ant-input-number-disabled {
+  color: inherit !important;
+}
+
+.enter-footer .ant-form {
+  padding: 0;
+}
+
+.enter-footer .footer-ng {
+  border: 2px solid #ff4d4f;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.enter-footer .footer-ng>div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap
+}
+
+.enter-footer .ant-form-item {
+  margin: 0 !important;
+}
+
+.enter-footer .ant-form-item:nth-child(5) {
+  margin-bottom: 15px !important;
+}
+
+.enter-fc-list {
+  padding: 10px 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 53px;
+}
+
+.enter-fc-list .enter-btn-list {
+  display: flex;
+  gap: 10px;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.enter-fc-list .insp-result {
+  display: flex;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.enter-fc-list .insp-result>span {
+  font-weight: bold;
+}
+
+.enter-fc-list .insp-result.ng>span {
+  color: #d9363e;
+}
+
+.ant-popover-inner-content {
+  padding: 0 !important;
+}

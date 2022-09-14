@@ -1,0 +1,130 @@
+.selectOptionHeader .selectOption {
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 700;
+  cursor: default;
+}
+
+.selectOption {
+  display: flex;
+  flex-direction: row;
+}
+
+.selectOptionObject {
+  position: relative;
+  padding: 0 3px;
+  flex: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.selectOptionObject::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  height: 32px;
+  background-color: #e3e3e3;
+}
+
+.selectOptionObject:last-child::after {
+  display: none;
+}
+
+/* 分割线文本 */
+.peptideDivider .ant-divider-inner-text {
+  font-weight: bold;
+}
+
+/* 分割线 */
+.peptideDivider::before,
+.peptideDivider::after {
+  border-top: 1px solid #c5c5c5 !important;
+}
+
+.spacing>.ant-menu-submenu-title {
+  margin: 0;
+}
+
+.disabledColor,
+.disabledColor input {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.tiledTabPane.ant-tabs-tabpane {
+  flex: none;
+  width: 100%;
+  outline: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 16px;
+}
+
+.JSONfields>div>div>div {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.propertyCollapse .ant-collapse-item>.ant-collapse-header {
+  padding: 8px !important;
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.propertyCollapse .ant-collapse-item-active>.ant-collapse-header {
+  margin-bottom: 0;
+}
+
+.propertyCollapse .ant-collapse-content>.ant-collapse-content-box {
+  padding: 5px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.ant-form-vertical {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ant-form-vertical .ant-form-item {
+  margin-bottom: 10px !important;
+  padding: 0 6px;
+}
+
+.ant-form-vertical .ant-form-item-control {
+  width: 100%;
+}
+
+.ant-form-vertical .whole-line {
+  width: 100% !important;
+  justify-content: space-between;
+}
+
+/* 多肽表单标题样式 */
+.title-name{
+  display:inline-block;
+  text-align: center;
+}
+/* 多肽表单标题*号样式 */
+.title-name-star{
+  color: red;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0 2px;
+}
+
+/* 第三方图标样式 */
+.editorThirdIcons{
+  float: left;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+.editorThirdIcons svg{
+  width: 16px;
+  height: 16px;
+}
+.editorThirdIcons path{
+  fill:inherit
+}

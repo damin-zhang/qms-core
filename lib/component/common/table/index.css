@@ -1,0 +1,15 @@
+.ant-table-cell .codeToRender{
+    width: 95%;
+    height: 60px;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: rgb(223 231 240);
+    border-radius: 3px;
+}
+
+/* 勾选【系统分区】功能后，工具栏样式 */
+.systemSubareaCss .ant-pro-table-list-toolbar-container{
+    padding: 1px 17px 0px 0px
+}

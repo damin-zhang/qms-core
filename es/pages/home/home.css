@@ -1,0 +1,98 @@
+.card {
+  margin: 10px 20px 20px 10px;
+  width: 200px;
+}
+
+
+.card_sub {
+  background-color: #ddfeed;
+  margin: 10px 20px 20px 10px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.breadcrumb {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+}
+
+.home_href:hover {
+  cursor: pointer;    /* 网页浏览时用户鼠标指针的样式:光标为一只手 */
+}
+
+.meta {
+  margin: 0;
+  padding: 15px 0 0;
+}
+
+.meta_detail {
+  width: 70%;
+  float: left;
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  padding: 20px 0 0 20px;
+  word-break: break-word;
+}
+
+
+.ant-card-meta-title{
+  font-size: 20px !important;
+  color:inherit;
+  word-break: break-word;
+}
+.ant-card-meta-description {
+  font-size: 18px;
+  color: inherit;
+  word-break: break-word;
+}
+.sub_card_icon_outer{
+  float: right;
+}
+
+.sub_card_icon {
+  background: #81c69f;
+  border: 1px solid #81c69f;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  line-height: 100px;
+}
+
+/* 面包屑第三方图标样式 */
+.homeThirdIcons{
+  display: inline-block;
+}
+
+.homeThirdIcons div{
+  font-size: 0;
+}
+
+.homeThirdIcons svg{
+  width: 15px;
+  height: 15px;
+}
+
+/* home页面卡片中的第三方图标样式 */
+.cardThirdIcons{
+
+  background: #81c69f;
+  border: 1px solid #81c69f;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+}
+.cardThirdIcons svg{
+  width: 40px;
+  height: 40px;
+}
+.cardThirdIcons path{
+  fill:inherit;
+}
+

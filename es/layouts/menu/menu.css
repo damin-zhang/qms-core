@@ -1,0 +1,45 @@
+/* 导航栏菜单不同层级背景颜色 */
+.bg-color>li>ul {
+  background: rgb(5, 31, 51) !important;
+}
+
+.bg-color>li>ul>li>ul {
+  background: rgb(10, 41, 61) !important;
+}
+
+.bg-color>li>ul>li>ul>li>ul {
+  background: rgb(15, 51, 71) !important;
+}
+
+.bg-color>li>ul>li>ul>li>ul>li>ul {
+  background: rgb(20, 61, 81) !important;
+}
+
+.ParentCountStyle {
+  position: absolute;
+  top: 0;
+  right: 36px;
+}
+
+.collapsedCountStyle {
+  position: absolute;
+  top: -1px;
+  right: -14px;
+}
+
+.ParentCountStyle .ant-badge-count,
+.collapsedCountStyle .ant-badge-count {
+  z-index: auto;
+  max-width: 14px;
+  height: 14px;
+  padding: 0px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  white-space: nowrap;
+  text-align: center;
+  background: #d42b2c;
+  border-radius: 7px;
+  box-shadow: 0 0 0 1px #d42b2c;
+}

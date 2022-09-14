@@ -1,0 +1,22 @@
+.borderBottom {
+  border-bottom: 4px solid #1890ff;
+}
+.borderRight {
+  border-right: 4px solid #1890ff;
+  margin-right: 5px !important;
+}
+
+.fullButton {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  border: none;
+  height: 53px !important;
+  color: #fff;
+  background-color: #1890ff;
+}
+.fullButton:hover,
+.fullButton:focus {
+  color: rgba(0, 0, 0, 0.75);
+  background-color: #1890ff;
+}

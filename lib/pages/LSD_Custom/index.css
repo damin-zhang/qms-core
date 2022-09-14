@@ -1,0 +1,25 @@
+#LSD .ant-table-thead>tr>th {
+  background-color: #ffd073;
+  font-size: 28px;
+}
+
+#LSD .ant-table-tbody>tr>td {
+  font-size: 24px;
+}
+
+#LSD .ant-table-tbody>tr>td {
+  background-color: #fafafa;
+}
+
+#LSD .ant-table-tbody>tr:nth-child(2n) td {
+  background-color: #e6f7ff;
+}
+
+
+#LSD .ant-table-tbody .ant-table-cell {
+  padding: 2px 6px !important;
+  margin: 0 !important;
+  word-break: break-all;
+  white-space: break-spaces;
+  overflow-wrap: break-word;
+}

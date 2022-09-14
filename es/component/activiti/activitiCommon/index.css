@@ -1,0 +1,32 @@
+.containers,
+.noInformationContainers {
+  width: 100%;
+  height: calc(100vh - 120px);
+}
+
+.containers .canvas {
+  height: calc(100% - 222px);
+}
+
+.noInformationContainers .canvas {
+  height: 100%;
+}
+
+.containers .bjs-container a,
+.noInformationContainers .bjs-container a {
+  display: none;
+}
+
+.highlightColor .djs-visual> :nth-child(1) {
+  fill: #A7F696 !important;
+  stroke: #A7F696 !important;
+}
+
+.waitingToDoColor .djs-visual> :nth-child(1) {
+  fill: #FDEC03 !important;
+  stroke: #FDEC03 !important;
+}
+
+.SequenceFlowStroke .djs-visual> :nth-child(1) {
+  stroke: #A7F696 !important;
+}

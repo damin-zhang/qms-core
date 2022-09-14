@@ -1,0 +1,13 @@
+/* .tab > tr > td {
+  padding: 10px !important;
+  border: 1px solid red;
+}
+
+.colHead .ant-collapse-header{
+  margin: 0;
+  padding: 0!important;
+} */
+
+.bgColor{
+ background-color: rgb(221, 126, 48)!important;
+}

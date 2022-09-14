@@ -1,0 +1,793 @@
+/* =====================自定义样式 start================================================================== */
+body {
+  line-height: 1;
+  --allHeight: 100%;
+  --allWidth: 100%;
+  --allBtInputDwHeight: 28px;
+}
+
+#root {
+  height: var(--allHeight);
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box !important;
+  overflow: scroll;
+}
+
+.hide-full {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box !important;
+  overflow: hidden;
+}
+
+.flex-x {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.flex-y {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow-y {
+  flex-grow: 1;
+  height: 1px;
+}
+
+.flex-grow-x {
+  flex-grow: 1;
+  width: 1px;
+}
+
+.extra-btn {
+  width: 50px !important;
+  margin-bottom: 0 !important;
+}
+
+/* MarkDown 相关样式 */
+
+.markdown code {
+  margin: 0 1px;
+  padding: 0.2em 0.4em;
+  font-size: .9em;
+  background: #f2f4f5;
+  border: 1px solid rgba(0, 0, 0, .06);
+  border-radius: 3px;
+}
+
+/* .peptide-propertyPage {
+  display: flex;
+  flex-wrap: wrap;
+}
+.peptide-propertyPage > .ant-form-item {
+  width: calc(50% - 5px) !important;
+  margin-bottom: 15px !important;
+  margin-right: 5px !important;
+} */
+
+/*滚动条样式*/
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(217, 217, 217, 0.2);
+  -webkit-box-shadow: inset 0 0 5px rgba(217, 217, 217, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(217, 217, 217, 0.2);
+  -webkit-box-shadow: inset 0 0 5px rgba(217, 217, 217, 0.2);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* =====================自定义样式 end================================================================== */
+
+/* =====================修改antd组件默认样式start======================================================== */
+/* 设置所有按钮的margin-right:5px ,height:25px */
+.ant-btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: var(--allBtInputDwHeight);
+  padding: 0 4px;
+  border-color: transparent;
+}
+
+/* 设置所有输入框的height:25px */
+.ant-input {
+  padding: 2px 4px;
+}
+
+.ant-tabs {
+  height: 100%;
+}
+
+.ant-tabs-bar {
+  margin: 0 !important;
+}
+
+.ant-tabs .ant-tabs-content {
+  height: 100%;
+}
+
+.ant-tabs .ant-tabs-content.ant-tabs-content-top {
+  /* margin-top: 5px !important; */
+}
+
+.ant-drawer .ant-tabs-content {
+  height: calc(100% - 5px);
+  margin-top: 5px;
+}
+
+.ant-drawer .ant-drawer-body {
+  padding: 10px;
+}
+
+.ant-spin-nested-loading {
+  height: 100%;
+}
+
+.ant-tabs-tab {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-color: transparent !important;
+  background: transparent !important;
+}
+
+.ant-tabs-tab .ant-tabs-tab-btn div {
+  padding: 3px 32px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.ant-tabs-top>.ant-tabs-nav,
+.ant-tabs-bottom>.ant-tabs-nav,
+.ant-tabs-top>div>.ant-tabs-nav,
+.ant-tabs-bottom>div>.ant-tabs-nav {
+  margin: 0;
+}
+
+.ant-tabs-tab-active {
+  border-color: #fff !important;
+  background: #fff !important;
+}
+
+/* 设置table不换行 */
+table {
+  table-layout: fixed;
+  /* 只有定义了表格的布局算法为fixed，下面td、th的定义才能起作用。 */
+}
+
+td,
+th {
+  word-break: keep-all;
+  /* 不换行 */
+  white-space: nowrap;
+  /* 不换行 */
+  overflow: hidden;
+}
+
+/*表格体数据行样式*/
+.ant-table-small tbody>tr>.ant-table-cell {
+  padding: 3px !important;
+}
+
+/* 表格头背景颜色 */
+/* .ant-table.ant-table-small thead>tr>th {
+  background: #fffff0 !important;
+} */
+
+/*表格头 头样式*/
+.ant-table thead>tr>th {
+  padding: 0 !important;
+  height: 39px;
+  font-weight: bold !important;
+}
+
+/*表格行选中样式*/
+.ant-table-tbody>tr.ant-table-row-selected td {
+  background: #baefe1 !important;
+}
+
+/* 关联页tabs修改 */
+.ant-tabs-line {
+  height: 100% !important;
+}
+
+.ant-tabs .ant-tabs-top-content.ant-tabs-content-animated {
+  height: calc(100% - 39px);
+  margin-top: 5px;
+}
+
+.ant-tabs .ant-tabs-content.ant-tabs-content-top {
+  /* margin-top: 5px !important; */
+}
+
+.ant-tabs-line .ant-tabs-tab {
+  padding-bottom: 6px !important;
+  padding-top: 6px !important;
+}
+
+.ant-tabs-extra-content {
+  line-height: 30px !important;
+}
+
+/* form表单格式修改为flex布局 */
+.ant-form .ant-form-inline {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.ant-form-inline>.ant-form-item {
+  width: calc(50%);
+  margin-bottom: 15px !important;
+  margin-right: 0 !important;
+}
+
+.ant-form-item {
+  margin-right: 0 !important;
+}
+
+.ant-form-item {
+  /* width: calc(100%) !important; */
+  margin-bottom: 15px !important;
+  margin-right: 0 !important;
+}
+
+.ant-form .ant-upload-picture-card-wrapper {
+  min-height: 112px;
+}
+
+/* 版本升级覆盖表单默认样式 */
+.ant-form-inline .ant-form-item>[class*="ant-col-"].ant-form-item-label {
+  flex: auto;
+}
+
+.ant-input-number {
+  width: 100% !important;
+}
+
+.ant-picker {
+  width: 100% !important;
+}
+
+.ant-form-item-label>label {
+  color: rgba(0, 0, 0, 1);
+}
+
+.ant-input[disabled],
+.ant-picker-input>input[disabled],
+.ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector,
+.ant-input-number-disabled {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.ant-btn-primary-disabled,
+.ant-btn-primary.disabled,
+.ant-btn-primary[disabled],
+.ant-btn-primary-disabled:hover,
+.ant-btn-primary.disabled:hover,
+.ant-btn-primary[disabled]:hover,
+.ant-btn-primary-disabled:focus,
+.ant-btn-primary.disabled:focus,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary-disabled:active,
+.ant-btn-primary.disabled:active,
+.ant-btn-primary[disabled]:active,
+.ant-btn-primary-disabled.active,
+.ant-btn-primary.disabled.active,
+.ant-btn-primary[disabled].active,
+.ant-btn-disabled,
+.ant-btn.disabled,
+.ant-btn[disabled],
+.ant-btn-disabled:hover,
+.ant-btn.disabled:hover,
+.ant-btn[disabled]:hover,
+.ant-btn-disabled:focus,
+.ant-btn.disabled:focus,
+.ant-btn[disabled]:focus,
+.ant-btn-disabled:active,
+.ant-btn.disabled:active,
+.ant-btn[disabled]:active,
+.ant-btn-disabled.active,
+.ant-btn.disabled.active,
+.ant-btn[disabled].active {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+a[disabled] {
+  color: rgba(0, 0, 0, 0.45) !important;
+}
+
+.ant-form {
+  padding: 10px 0 0;
+}
+
+.ant-form-item-label>label {
+  min-height: 32px;
+  height: auto;
+}
+
+/* 某个表单元素设置为整行, 加类名 'whole-line' */
+.ant-form-inline .whole-line {
+  width: 100% !important;
+  justify-content: space-between;
+}
+
+/* 表单label标签可换行 */
+.ant-form-item-label {
+  white-space: normal !important;
+  overflow: visible;
+  word-break: break-all;
+  text-align: left;
+  padding-left: 5px;
+}
+
+/* 表格高度为100% */
+.ant-pro-table .ant-card {
+  height: 100%;
+}
+
+.ant-card-body {
+  height: 100%;
+  padding: 0;
+}
+
+.ant-table-wrapper {
+  height: calc(100% - 32px) !important;
+}
+
+.ant-pro-table .ant-table-wrapper {
+  height: 100% !important;
+}
+
+.spin>.ant-spin-nested-loading {
+  height: 100% !important;
+}
+
+.ant-spin-container {
+  height: 100% !important;
+}
+
+.ant-table-small {
+  height: 100% !important;
+}
+
+.ant-table-container {
+  height: 100% !important;
+}
+
+.ant-table-content {
+  height: 100% !important;
+}
+
+.ant-table-body {
+  height: calc(100% - 39px);
+  max-height: none !important;
+}
+
+/* 设置input后缀样式 */
+.ant-input-group-addon {
+  padding: 0 !important;
+  border: none !important;
+}
+
+.ant-input-group-addon .ant-btn {
+  margin: 0 !important;
+}
+
+/* 右键菜单设置行高 */
+
+.contextMenu {
+  overflow: auto;
+  max-height: 400px;
+  /* padding-bottom: 33px; */
+}
+
+.contextMenu,
+.contextSubMenu,
+.contextSubMenu .ant-menu-sub {
+  border-radius: 4px;
+  border: 1px solid #f0f2f5;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05) !important;
+  background-color: #1890ff;
+  color: #000;
+}
+
+.contextSubMenu .ant-menu-sub {
+  min-width: 120px;
+}
+
+.contextMenu>.ant-menu-item,
+.contextSubMenu .ant-menu-sub>.ant-menu-item {
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 1px !important;
+  margin-top: 0;
+}
+
+/* 左侧菜单栏标题高度 */
+/* .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title,.ant-menu-sub.ant-menu-inline> .ant-menu-item, .ant-menu-submenu-title {
+  height: 20px;
+  line-height: 20px;
+} */
+.contextMenu>.ant-menu-item:hover {
+  background-color: #5c657b !important;
+}
+
+.contextMenu>.ant-menu-submenu>.ant-menu-submenu-title {
+  height: 25px;
+  line-height: 25px;
+}
+
+.contextMenu>.ant-menu-submenu:hover {
+  background-color: #e6f7ff;
+}
+
+.contextMenu .contentMenuDivider {
+  background-color: #c1c1c1;
+}
+
+.tableMenu {
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* width: 98%; */
+  background: rgb(248 221 146);
+  /* border-bottom-left-radius: 10px; */
+  /* border-bottom-right-radius: 10px; */
+  height: 100%;
+  padding: 4px 0;
+}
+
+.react-resizable {
+  position: relative;
+  background-clip: padding-box;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  bottom: 0;
+  right: -5px;
+  cursor: col-resize;
+  z-index: 1;
+}
+
+/* 设置弹窗最大高度， 超出显示滚动条 */
+.ant-modal-body {
+  padding: 5px 20px !important;
+  /* max-height: calc(95vh - 70px); */
+  /* width: 100% !important; */
+  /* overflow: hidden; */
+  max-height: calc(100vh - 109px);
+  width: 100% !important;
+  overflow: auto;
+}
+
+.peptideFormPadding .ant-modal-body {
+  padding: 5px 0 !important;
+}
+
+.has-footer .ant-modal-body {
+  max-height: calc(100vh - 109px);
+}
+
+.no-footer .ant-modal-body {
+  max-height: calc(100vh - 55px);
+}
+
+.ant-modal-header {
+  background-color: #1890ff;
+}
+
+.ant-modal-title {
+  color: #fff;
+}
+
+.ant-modal-close {
+  color: #fff;
+  width: 40px;
+}
+
+.ant-modal-close-x {
+  padding-right: 5px;
+  width: 40px;
+  height: 54px;
+  line-height: 54px;
+}
+
+/* 去掉弹窗遮罩层的滚动条 */
+.ant-modal-wrap {
+  overflow: hidden;
+}
+
+/* 卡片描述超出显示省略号 */
+.ant-card-meta-description {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Tag组件设置最大宽度，超出显示省略号 */
+.ant-tag {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-list {
+  height: 100%;
+}
+
+.ant-list-items {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.ant-list .ant-table {
+  height: 100%;
+  font-size: 14px;
+}
+
+.ant-pro-table .ant-pro-table-list-toolbar {
+  position: absolute;
+  right: 0;
+  top: -35px;
+  display: block;
+}
+
+/*  手动分页 small尺寸表格内容区高度 */
+.ant-list.manual-paging {
+  height: calc(100% - 24.5px - 4px - 4px) !important;
+}
+
+/*  无分页 small尺寸表格内容区高度 */
+.ant-pro-table.no-paging {
+  height: 100% !important;
+}
+
+/* small尺寸表格内容区高度 */
+.ant-list.auto-paging>.ant-spin-nested-loading {
+  height: calc(100% - 24.5px - 4px - 4px);
+}
+
+.ant-list.manual-paging>.ant-spin-nested-loading {
+  height: 100%;
+}
+
+.ant-list.no-paging>.ant-spin-nested-loading {
+  height: 100%;
+}
+
+/* small尺寸表格分页器间距 */
+.ant-table-pagination.ant-pagination.mini {
+  margin: 4px 0;
+}
+
+/* 带排序的表格头宽度修改 */
+.ant-list .ant-table-cell .ant-table-column-sorters {
+  padding: 8px;
+  width: 100%;
+}
+
+.ant-list .ant-table-cell .ant-table-column-sorters .ant-table-column-title {
+  width: calc(100% - 15px);
+}
+
+/* 内容溢出显示省略号 */
+.ant-list .ant-table-cell>span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: inline-block;
+}
+
+/* 表格头溢出显示省略号 */
+.ant-table thead>tr>th {
+  text-overflow: ellipsis;
+}
+
+/* 选择框清除水平padding, 居中显示 */
+table tr th.ant-table-selection-column,
+table tr td.ant-table-selection-column {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+/* 显示滚动固定列表阴影 */
+.ant-table-ping-right .ant-table-cell-fix-right-first,
+.ant-table-ping-right .ant-table-cell-fix-right-last,
+.ant-table-cell-fix-left-first,
+.ant-table-cell-fix-left-last {
+  overflow: visible;
+}
+
+.ant-notification {
+  max-height: calc(100% - 24px);
+  overflow-y: auto;
+  word-break: break-word;
+}
+
+/* message 样式 */
+.ant-message {
+  top: 2px;
+  font-size: 18px;
+}
+
+.ant-message .anticon {
+  font-size: 18px;
+}
+
+/* 通知、消息换行 */
+.ant-message,
+.ant-notification-notice .ant-notification-notice-description {
+  white-space: pre-line;
+}
+
+.ant-message .ant-message-notice-content {
+  max-width: 500px;
+  word-break: break-all;
+}
+
+/* 表格搜索气泡确认框样式 */
+.searchInputPopConfirm .ant-popover-buttons {
+  display: none;
+}
+
+.searchInputPopConfirm .ant-popover-message-title {
+  padding-left: 0;
+}
+
+.searchInputPopConfirm .ant-popover-message {
+  padding: 4px 0;
+}
+
+.ant-form-item-control {
+  width: 0;
+}
+
+/* 表格固定列，取消固定列 图标 */
+.tableIconLock {
+  display: none;
+}
+
+.BaseTable__header-cell:hover .tableIconLock {
+  display: inline-block;
+}
+
+/* 标签路由样式 */
+.ant-tabs-tab a,
+.ant-tabs-tab a:active,
+.ant-tabs-tab a:hover {
+  color: inherit;
+  transition: inherit;
+}
+
+/* 拖拽时表格行样式 */
+.row-dragging {
+  border: 1px solid #ccc;
+  z-index: 9999;
+}
+
+.row-dragging td {
+  line-height: 35px;
+  padding: 0 20px
+}
+
+.row-dragging .drag-visible {
+  visibility: visible;
+}
+
+/* Antd 抽屉组件样式 */
+.ant-drawer-header {
+  background-color: #1890ff;
+}
+
+.ant-drawer-title,
+.ant-drawer-close {
+  color: #fff !important;
+}
+
+.ant-drawer-header-title {
+  flex-direction: row-reverse;
+}
+
+.ant-drawer-header-title .ant-drawer-close {
+  margin-right: 0;
+}
+
+.ant-tabs-top>.ant-tabs-nav,
+.ant-tabs-bottom>.ant-tabs-nav,
+.ant-tabs-top>div>.ant-tabs-nav,
+.ant-tabs-bottom>div>.ant-tabs-nav {
+  margin: 0 0 0px 0;
+}
+
+.spaceBetween {
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+
+/* Rc-Viewer 图片查看器相关样式 */
+.rc-image-list {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.rc-image-list .re-image-item {
+  width: 104px;
+  height: 104px;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.rc-image-list .re-image-item img {
+  position: static;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* 选择历史记录的文字颜色和背景颜色 */
+input:-webkit-autofill {
+  -webkit-animation: autofill-fix 1s infinite !important;
+  /* 选择历史记录的文字颜色*/
+  -webkit-text-fill-color: inherit;
+  -webkit-transition: background-color 50000s ease-in-out 0s !important;
+  transition: background-color 50000s ease-in-out 0s !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  /* 选择历史记录的背景颜色 */
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+}
+
+[role=button],
+a,
+area,
+button,
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+input[type=number],
+input[type=password],
+input[type=text],
+textarea {
+  -webkit-appearance: none;
+}
+
+.ant-table-cell>.ant-form-item {
+  margin: 0 !important;
+}

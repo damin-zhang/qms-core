@@ -1,0 +1,100 @@
+.main {
+  width: 100%;
+  height: 100%;
+  /* background: url('../../assets/loginBg.png') no-repeat; */
+  background-size: 100% 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.loginCard {
+  border-radius: 6px;
+  width: 962px;
+  height: 466px;
+  background: #fff url('../../assets/login_panel.min.webp') no-repeat 0px;
+  background-size: 577px 466px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgba(0, 145, 145, .6);
+}
+
+.loginLogo{
+  width: 300px;
+  position: absolute;
+  left: 45px;
+  top: 30px;
+}
+
+.loginTitle {
+  position: absolute;
+  top: 22%;
+  width: 960px;
+  height: 35px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'fantasy';
+  font-weight: 500;
+}
+
+.loginSubtitle {
+  position: absolute;
+  top: 28%;
+  width: 960px;
+  height: 35px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin: 15px 0 25px 0;
+}
+
+.avatarLoginForm {
+  position: absolute;
+  top: 37%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FAFAFA;
+  border-radius:20px;
+  width:450px;
+  padding: 24px 0;
+}
+
+.loginForm {
+  width: 90%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin:10px auto
+}
+
+.loginAvatar {
+  width: 90%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.loginInputStyle {
+  border-radius: 20px;
+  border: 1px solid #1890ff;
+}
+
+.loginInputStyle:focus {
+  box-shadow: 0 0 0 3px rgb(24 144 255 / 20%)
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}

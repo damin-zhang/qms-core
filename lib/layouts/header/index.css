@@ -1,0 +1,49 @@
+.header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  color: #fff;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+  background: #e7eaeb url(~@/assets/infinity-logo.png) no-repeat center;
+  background-size: auto 85%;
+}
+
+.actionBar {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  margin: 0 10px;
+  background-color: #fff;
+}
+
+.darkTheme {
+  background-color: #000;
+}
+
+.employeeName {
+  margin: 0 3px;
+}
+
+.modelBtn {
+  margin: 0 !important;
+}
+
+.menuBackground>li:not(li.ant-menu-item-selected):hover {
+  background-color: rgb(0, 21, 41) !important;
+}
+
+.menuTop>li {
+  top: 0px !important;
+}
+
+.version-line li{
+  line-height: 2;
+}

@@ -1,0 +1,275 @@
+.lar-box {
+  width: 100%;
+  height: 100%;
+  height: calc(100% - 35px);
+  overflow: auto;
+}
+
+.lar-box>div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.lar-all-bg {
+  height: 52%;
+  background: url('../../assets/lar1.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lar-all-line {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.lar-all-line>div {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.lar-ng-bg {
+  background-image: url('../../assets/lar2.png');
+  background-size: 100% 100%;
+}
+
+.lar-data-bg {
+  max-height: 50%;
+}
+
+.lar-defect-bg {
+  background: #181743;
+}
+
+.lar-data {
+  width: 100%;
+
+}
+
+.lar-h {
+  height: 90%;
+  width: 47%;
+  margin:0 auto;
+  padding-top: 10px;
+}
+
+.lar-standard-box {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.lar-custom-l {
+  background: #225E7A;
+}
+
+.lar-custom-m,
+.lar-standard-m {
+  background-image: url('../../assets/lar4.png');
+  background-size: 100% 100%;
+}
+
+.lar-custom-s {
+  background: #113F58;
+}
+
+.lar-custom-data,
+.lar-standard-data {
+  background: #31338A;
+}
+
+.lar-standard-l {
+  background: #1D1F5A;
+}
+
+.lar-standard-s {
+  background: #A36570;
+}
+
+.report-table-style .ant-table.ant-table-bordered tbody>tr>td,
+.report-table-style .ant-table.ant-table-bordered th {
+  background: #002060;
+  color: #eee;
+  border: 1px solid #31338A;
+}
+
+.lar-all-title{
+  position: absolute;
+  left: 50%;
+  top: -13px;
+  transform: translate(-50%, -50%);
+}
+
+/* 定制件样式 */
+.lar-custom-box {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.lar-custom-bg {
+  height: 52%;
+  background: #02073A;
+  margin: 0 10px;
+  padding: 0 10px;
+  margin-bottom: 24px;
+}
+
+.lar-line {
+  height: 105%;
+  margin: auto;
+  padding:  20px 0 0 0;
+}
+
+.lar-custom-data-bg,
+.lar-detail-data-bg,
+.lar-detail-problem {
+  margin: 12px;
+}
+
+.lar-custom-ng-bg {
+  background: #373F75;
+}
+
+.lar-custom-s-bg {
+  background: #31338A;
+}
+
+.lar-custom-defect {
+  margin: 0 10px;
+  height: 52%;
+  background: #181743;
+}
+
+/* 定制件LAR明细布局样式 */
+.lar-detail-bg {
+  height: 52%;
+  background: #235F7B !important;
+}
+
+.lar-detail-ng-bg {
+  background-image: url('../../assets/lar4.png');
+  background-size: 100% 100%;
+}
+
+.lar-detail-s-bg {
+  background: #113F58;
+}
+
+.lar-detail-defect {
+  height: 52%;
+  background: #31338A;
+}
+
+/* 定制件LAR具体分类样式布局 */
+.lar-specific-bg {
+  height: 52%;
+  background: #235F7B !important;
+}
+
+.lar-specific-ng-bg {
+  background: #113F58;
+}
+
+.lar-specific-defect {
+  background: #181442;
+}
+/* 物料不良饼图 */
+.material-pie {
+  width: 68%;
+  height: 100%;
+  margin: auto;
+}
+
+.material-text {
+  width: 32%;
+  text-align: left;
+  margin: auto 10px;
+}
+
+.legend-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer
+}
+
+.legend-square {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+
+.legend-circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%
+}
+
+.legend-line {
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+}
+/* 及时率 */
+
+.tr-box {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: 10px;
+}
+
+.tr-data-bg {
+  max-height: 50%;
+  margin: 0 20px;
+}
+
+.tr-column {
+  height: 88%;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+
+.tr-bg{
+  background: url('../../assets/trBg.png');
+  background-size: 100% 100%;
+}
+
+.tr-all-bg {
+  height: 52%;
+  background: url('../../assets/trBg2.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tr-pie-bg {
+  background-image: url('../../assets/trBg4.png');
+  background-size: 100% 100%;
+}
+
+.tr-iqc-bg{
+  background-image: url('../../assets/trBg5.png');
+  background-size: 100% 100%;
+}
+
+.tr-iqc-column-bg{
+  background-image: url('../../assets/trBg2.png');
+  background-size: 100% 100%;
+}
+.periodicity{
+  width: '100%'!important ;
+  display: 'flex';
+  justify-content: 'right'
+}

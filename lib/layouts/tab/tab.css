@@ -1,0 +1,34 @@
+.tabs {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 7px;
+}
+
+.tabs .ant-tabs-tab-active {
+  color: #fff !important;
+  border-color: #fff !important;
+  background: #1890ff !important;
+}
+
+.tabPane {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 5px 5px 0 5px;
+  box-sizing: border-box;
+}
+
+.spin {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}

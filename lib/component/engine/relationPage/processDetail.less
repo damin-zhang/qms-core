@@ -1,0 +1,45 @@
+.processDetail {
+  height: 100%;
+  overflow-y: auto;
+
+  :global {
+    .ant-radio-disabled + span,
+    .ant-select-disabled.ant-select-multiple .ant-select-selection-item {
+      color: rgba(0, 0, 0, 0.75) !important;
+    }
+  }
+}
+
+.processDetail > {
+  :global {
+    .ant-list.manual-paging {
+      height: 100% !important;
+    }
+
+    .flex-y > .flex-grow-y > div:last-child {
+      display: none !important;
+    }
+  }
+}
+
+.disabledColor,
+.disabledColor > {
+  :blobal {
+    input {
+      color: rgba(0, 0, 0, 0.75) !important;
+    }
+  }
+}
+
+.historyNode {
+  color: #00a807;
+}
+
+.currentNode {
+  color: #ff9800;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.noStartNode {
+}

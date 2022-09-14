@@ -1,0 +1,28 @@
+.inspection-header .logo {
+  background: url(~@/assets/xylem-logo.png) no-repeat center;
+  background-size: contain;
+}
+
+.inspection-header td,
+.inspection-header th {
+  text-align: center;
+  border: 1px solid;
+  line-height: 26px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+  padding: 0 10px;
+}
+
+.inspection-header th {
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.inspection-header .title {
+  font-weight: 700;
+}
+
+.inspection-header .content {
+  background-color: #acd879;
+}

@@ -1,0 +1,114 @@
+#report-container {
+  height: 100%;
+}
+
+#report-body .ant-table {
+  height: 100%;
+}
+
+#report-body .ant-table-body {
+  height: calc(100% - 50px);
+}
+
+#report-body .ant-table-wrapper {
+  height: 100% !important;
+}
+
+.max_min_item p {
+  margin: 0;
+}
+
+.max_min_item p>span {
+  display: inline-block;
+  width: 25px;
+}
+
+#report-body .ng-cell,
+.report-more-select .ng-cell {
+  background: #d9363e;
+  color: #fff;
+}
+
+#report-body .warn-cell,
+.report-more-select .warn-cell {
+  background: #ffc107;
+  color: #fff;
+}
+
+.report-more-select .ant-select-item-option-content .max_min_item>p {
+  font-weight: 700;
+  border: 1px solid #d9d9d9;
+  border-bottom: none;
+  text-align: center;
+}
+
+.report-more-select .ant-select-item-option-content .max_min_item>div,
+.report-value-item {
+  border: 1px solid #d9d9d9;
+}
+
+.report-more-select .ant-select-item {
+  padding: 5px 8px;
+  text-align: center;
+}
+
+.report-more-select .no-space {
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.report-value-item p {
+  margin: 0;
+}
+
+.report-value-item p.title {
+  border-bottom: 1px solid #d9d9d9;
+  font-weight: 700;
+}
+
+#report-body .null-element {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+}
+
+.report-more-select .report-select-value {
+  color: rgba(0, 0, 0, 0.85);
+  cursor: default;
+}
+
+#report-body .ant-table-tbody>tr>td {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+#report-body .ant-table.ant-table-bordered thead>tr>th,
+#report-body .ant-table.ant-table-bordered tbody>tr>td,
+#report-body .ant-table.ant-table-bordered tfoot>tr>th {
+  border-right: 1px solid #d9d9d9 !important;
+}
+
+#report-body .ant-table-cell {
+  padding: 2px 6px !important;
+  margin: 0 !important;
+  word-break: break-all;
+  white-space: break-spaces;
+  overflow-wrap: break-word;
+}
+
+.footer-ng{
+  padding-top: 10px;
+}
+
+.footer-ng table td {
+  text-align: center;
+  border: 1px solid;
+  line-height: 26px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  white-space: break-spaces;
+  padding: 0 10px;
+}

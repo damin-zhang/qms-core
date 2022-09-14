@@ -1,0 +1,40 @@
+.menu {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100% - 38px - 26px);
+  box-sizing: border-box;
+
+}
+
+.menuCollapsed {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100% - 26px);
+  box-sizing: border-box;
+}
+
+.menuBottom {
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px;
+}
+
+.search {
+  margin: 5px;
+}
+
+.tool,
+.menuBottomIcon {
+  height: 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menuWidth {
+  flex: 0 0 40px !important;
+  max-width: 40px !important;
+  min-width: 40px !important;
+  width: 40px !important;
+}

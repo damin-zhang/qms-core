@@ -1,0 +1,43 @@
+/* 图片缩略小图样式 */
+.image-item{
+    position: relative;
+}
+
+/* 图片上遮罩层样式 */
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(101, 101, 101, 0.6);
+    color: #ffffff;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-item:hover .mask{
+    opacity: 1;
+}
+
+/* 预览图标和下载图标 居中显示*/
+.icon-actions{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    white-space: nowrap;
+    transform: translate(-50%,-50%);
+}
+
+.icon-style{
+    font-size: 15px;
+    margin: 3px;
+}
+
+.image-download{
+    margin-top: 10px;
+}
+/* 下载按钮样式 */
+.image-download-btn{
+    float:right;
+}

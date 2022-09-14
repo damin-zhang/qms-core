@@ -1,0 +1,21 @@
+/* 改变svg大小 */
+.svg-icons svg {
+    width: 18px;
+    height: 18px;
+}
+.btn-icons svg {
+    width: 18px;
+    height: 18px;
+}
+.btn-icons path{
+    fill: #1890ff;
+    height: 18px;
+    width: 18px;
+}
+/* 改变填充颜色 */
+.svg-icons:hover path {
+    fill: #1890ff;
+    height: 18px;
+    width: 18px;
+}
+

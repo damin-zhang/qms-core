@@ -1,0 +1,115 @@
+.advancedSearchWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advancedSearch {
+  overflow: scroll;
+  margin-bottom: 10px;
+  padding: 10px 10px 0 10px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.advancedSearchFormWrapper {
+  width: calc(100% - 42px);
+}
+
+.advancedSearchBtnWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 35px;
+}
+.advancedSearchBtnWrapper button {
+  margin-right: 0 !important;
+}
+.fullButton {
+  position: absolute;
+  right: 40px;
+  top: 0;
+  border: none;
+  height: 53px !important;
+  color: #fff;
+  background-color: #1890ff;
+}
+.fullButton:hover,
+.fullButton:focus {
+  color: rgba(0, 0, 0, 0.75);
+  background-color: #1890ff;
+}
+
+/* FileView.js */
+.cardContainer {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.fileCard {
+  width: 250px;
+  height: 100px;
+  margin: 0 10px 15px 0;
+  display: flex;
+}
+.cardLeft {
+  width: 150px;
+  height: 100%;
+}
+.fileImg {
+  max-width: 100px;
+  max-height: 100px;
+}
+.cardRight {
+  width: 200px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.fileTitle {
+  width: 100%;
+  font-weight: bold;
+}
+.fileRemark {
+  flex-grow: 1;
+}
+
+/* BrowseFiles */
+.pdf-page {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* 按钮第三方图标样式 */
+.buttonThirdIcons{
+  float: left;
+  margin-top: 3px;
+}
+.buttonThirdIcons svg{
+  width: 15px;
+  height: 15px;
+}
+.buttonThirdIcons path{
+  fill: #fff;
+}
+
+/* 右键菜单第三方图标样式 */
+.eventThirdIcons{
+  float: left;
+}
+.eventThirdIcons svg{
+  width: 15px;
+  height: 15px;
+  margin-top: 6px;
+}
+.eventThirdIcons path{
+  fill: #fff;
+}
+

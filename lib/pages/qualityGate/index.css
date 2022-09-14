@@ -1,0 +1,104 @@
+.root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: url('../../assets/qualityGate-bg.jpg') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #00ff00;
+  line-height: 70px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: grey;
+  font-size: 18px;
+}
+.item1 {
+  /* width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #00ff00; */
+  line-height: 70px;
+  text-align: center;
+  position: absolute;
+  left: 3%;
+  top: 82%;
+  color: #fff;
+}
+.item2 {
+  /* width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #00ff00; */
+  line-height: 70px;
+  text-align: center;
+  position: absolute;
+  left: 29%;
+  top: 82%;
+  color: #fff;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.item3 {
+  /* width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #00ff00;
+  line-height: 70px;
+  text-align: center; */
+  position: absolute;
+  left: 49%;
+  top: 82%;
+  color: #fff;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.item4 {
+  /* width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #00ff00;
+  line-height: 70px;
+  text-align: center; */
+  position: absolute;
+  left: 65%;
+  top: 82%;
+  color: #fff;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.item5 {
+  /* width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #00ff00;
+  line-height: 70px;
+  text-align: center; */
+  position: absolute;
+  left: 91%;
+  top: 82%;
+  color: #fff;
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.error {
+  background-color: red;
+}
+.warning {
+  background-color: yellow;
+}
+
+.shanshuo {
+  animation: twinkle 0.5s infinite alternate;
+}
+@keyframes twinkle {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

@@ -1,0 +1,36 @@
+/* 第三方图标样式 */
+.layoutThirdIcons {
+  float: left;
+  margin: 0;
+  padding: 0px 4px 0px 0px !important;
+}
+
+.layoutThirdIcons svg {
+  margin-top: 4px !important;
+  width: 15px;
+  height: 15px;
+}
+
+.layoutThirdIcons div {
+  margin: 0;
+  padding: 0px 4px 0px 0px !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active .layoutThirdIcons path {
+  fill: #fff;
+}
+
+.ant-tabs-tab:hover {
+  color: #40a9ff;
+}
+
+.ant-tabs-tab:hover .layoutThirdIcons path {
+  fill: #40a9ff;
+}
+
+.tabAround {
+  width: calc(100% - 165px) !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

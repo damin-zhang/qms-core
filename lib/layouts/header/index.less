@@ -1,0 +1,132 @@
+@import '../../service/config.less';
+
+.header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  color: #fff;
+}
+
+.menu {
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+  background-color: #fff;
+  transition: width 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topLLogo {
+  height: 85%;
+}
+
+.CopyrightMap {
+  width: 100%;
+  height: 390px;
+  background-size: 100% 100%;
+  padding: 0px !important;
+  position: relative;
+  background-color: #f6f6f6;
+  overflow: hidden;
+  user-select: none;
+
+  .rightImg {
+    width: 100% !important;
+    height: 100%;
+    left: 10px;
+  }
+
+  .logoImg {
+    width: 100%;
+    position: absolute;
+    top: 22%;
+    right: 0px;
+    padding: 0 30px;
+  }
+}
+
+.CopyrightMap > ul {
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  padding: 0;
+}
+
+.actionBar {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  margin: 0 10px;
+  background-color: #fff;
+}
+
+.darkTheme {
+  background-color: #000;
+}
+
+.employeeName {
+  margin: 0 3px;
+}
+
+.modelBtn {
+  margin: 0 !important;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.editions {
+  list-style: none;
+  overflow: auto;
+  padding: 0px;
+
+  li {
+    p:nth-of-type(1) {
+      font-weight: 600;
+    }
+  }
+
+  .username {
+    margin-left: 8px;
+  }
+
+  .username:hover {
+    text-decoration: underline;
+  }
+
+  .BlackSpot {
+    width: 5px;
+    height: 5px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: black;
+  }
+}
+
+.text {
+  color: #000;
+}
+
+.edition {
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 0 !important;
+  border-bottom: 1px solid #cccccc;
+
+  .date {
+    font-size: 10px;
+    margin-left: 8px;
+    background-color: rgb(241, 239, 239);
+  }
+}

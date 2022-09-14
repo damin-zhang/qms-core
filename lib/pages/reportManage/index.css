@@ -1,0 +1,9 @@
+.periodicity{
+  width: 100%;
+}
+.periodicity >.ant-form-item{
+margin: 5px 10px 0 10px;
+}
+.periodicity >div>.ant-form-item{
+  margin:  5px 10px 0 10px;
+}

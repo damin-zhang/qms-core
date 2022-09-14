@@ -1,0 +1,71 @@
+.ProList,
+.ant-pro-list-no-split {
+  height: calc(100% - 30px)
+}
+
+.ProList .ant-card-body>.ant-list {
+  height: calc(100% - 53px);
+}
+
+.ant-pro-table-list-toolbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.ant-pro-list .ant-pro-table-alert {
+  margin-bottom: 2px;
+}
+
+.ant-list-item-extra {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-list-item-meta-title {
+  gap: 30px;
+  display: flex;
+  justify-content: start;
+}
+
+.ant-list-item-meta-title .ant-list-item-meta-main-title {
+  font-size: 18px;
+  cursor: pointer;
+  width: 110px;
+  word-break: break-all;
+}
+
+.ant-list-item-meta-title .ant-list-item-meta-main-title.blue {
+  color: #096dd9;
+}
+
+.ant-list-item-meta-title .ant-list-item-meta-main-title.red {
+  color: #ff4d4f;
+}
+
+.ant-list-item:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  transition: background-color 0.3s;
+}
+
+.list-toolbar {
+  display: flex;
+}
+
+.ProList .ant-checkbox-group {
+  width: 100%;
+}
+
+.ProList .list-toolbar+div {
+  height: calc(100% - 37px);
+}
+
+.ProList .list-toolbar+div .ant-list {
+  height: 100%;
+}
+
+.ProList .ant-list-split .ant-list-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}

@@ -1,0 +1,128 @@
+@import '~antd/es/style/themes/default.less';
+
+.lineFeed {
+  :global .ant-tooltip-inner {
+    white-space: pre-line;
+  }
+}
+/* 图标为第三方SVG格式图标库时 */
+.titleIcons {
+  .sideIcons svg {
+    margin: 4px 0 0 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* 暗黑主题 */
+.darkMenuItem {
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  .sideIcons {
+    float: left;
+  }
+
+  /* 第三方SVG格式图标样式 */
+  .sideIcons svg {
+    margin: 13px 10px 0 0;
+    width: 15px;
+    height: 15px;
+  }
+  /* 第三方SVG格式图标样式 */
+  .sideIcons path {
+    fill: #fff;
+  }
+  /* 收藏时 第三方图标样式 */
+  .collectThirdIcons {
+    display: inline-flex;
+    margin-left: 10px;
+  }
+  .collectThirdIcons svg {
+    margin: 13px 10px 0 0;
+    width: 15px;
+    height: 15px;
+  }
+  .collectThirdIcons path {
+    fill: #fff;
+  }
+
+  .headerThirdIcons {
+    float: left;
+    margin-right: 5px;
+  }
+  .headerThirdIcons svg {
+    width: 15px;
+    height: 15px;
+  }
+  .headerThirdIcons path {
+    fill: #fff;
+  }
+
+  &:hover {
+    font-weight: bold;
+    color: greenyellow;
+  }
+
+  /* 第三方SVG格式的图标样式 */
+  &:hover path {
+    fill: greenyellow;
+  }
+}
+
+/* 明亮主题 */
+.themeItem {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  .sideIcons {
+    float: left;
+  }
+
+  /* 第三方SVG格式图标样式 */
+  .sideIcons svg {
+    margin: 13px 10px 0 0;
+    width: 15px;
+    height: 15px;
+  }
+  /* 收藏时 第三方图标样式 */
+  .collectThirdIcons {
+    display: inline-flex;
+    margin-left: 10px;
+  }
+  .collectThirdIcons svg {
+    margin: 13px 10px 0 0;
+    width: 15px;
+    height: 15px;
+  }
+  .headerThirdIcons {
+    float: left;
+    margin-right: 5px;
+  }
+  .headerThirdIcons svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  &:hover {
+    font-weight: bold;
+    color: #1890ff;
+  }
+
+  /* 第三方SVG格式的图标样式 */
+  &:hover path {
+    fill: #1890ff;
+  }
+}
+
+// TODO 自适应左侧导航菜单
+// .menuWrapper {
+//   max-width: inherit !important;
+//   min-width: auto !important;
+//   width: auto !important;
+//   transition: width 1s;
+// }

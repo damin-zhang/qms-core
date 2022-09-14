@@ -1,0 +1,47 @@
+.resizable {
+  position: absolute !important;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  border-left: 4px solid #1890ff;
+  //   transition: width 0.5s;
+  //   transition-timing-function: linear;
+  animation: showAnimation 1s;
+  animation-iteration-count: 1;
+}
+
+.drawer {
+  width: 100% !important;
+
+  :global(.ant-drawer-body) {
+    padding: 10px 10px 0;
+  }
+
+  :global(.ant-drawer-content-wrapper) {
+    width: 100% !important;
+  }
+}
+
+.shrinkIcon,
+.expandIcon {
+  position: absolute;
+  z-index: 1001;
+  top: 50%;
+  left: -6px;
+  color: #1890ff;
+  font-size: 20px;
+  cursor: pointer;
+  animation: showAnimation 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes showAnimation {
+  from {
+    color: transparent;
+    border-left-color: transparent;
+  }
+  to {
+    color: #1890ff;
+    border-left-color: #1890ff;
+  }
+}

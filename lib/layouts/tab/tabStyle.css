@@ -1,0 +1,42 @@
+.selectedBackground>.ant-tabs-nav .ant-tabs-tab-active {
+  border-color: #fff !important;
+  background: #1890ff !important;
+}
+
+.selectedBackground>.ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff;
+  padding: 0 4px;
+}
+
+/* 第三方图标样式 */
+.thirdIcons{
+  float: left;
+  margin: 0;
+  padding: 0px 4px 0px 0px !important;
+}
+.thirdIcons div{
+  margin: 0;
+  padding: 0px 4px 0px 0px !important;
+}
+.thirdIcons svg{
+  margin-top: 4px !important;
+  width: 15px;
+  height: 15px;
+}
+.thirdIcons path{
+  fill:rgba(0, 0, 0, 0.85);
+}
+.thirdIcons .ant-tabs-tab-btn{
+  padding-left: 25px;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active .thirdIcons path{
+  fill: #fff;
+}
+
+.ant-tabs-tab .ant-dropdown-trigger:hover{
+  color:#40a9ff;
+}
+.ant-dropdown-trigger:hover .thirdIcons path{
+  fill:#40a9ff;
+}

@@ -1,0 +1,11 @@
+.root {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  overflow: hidden;
+}
+.ant-layout-has-sider{
+  flex-direction: column !important;
+}
+
