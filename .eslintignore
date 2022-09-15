@@ -1,0 +1,7 @@
+/config
+/dist
+public
+dist
+.umi
+mock
+node_modules
