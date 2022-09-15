@@ -107,7 +107,7 @@ export default (function (engine) {
         pageMenus = pageMenus.map(function (item) {
           var disabled = false;
 
-          if (item?.params?.scriptValue) {
+          if (item && item.params && item.params.scriptValue) {
             try {
               disabled = !eval("(record,selectedRows,userName,employeeName)=>{".concat(item.params.scriptValue, "}"))(selectedRows[0], selectedRows, localStorage.userName, localStorage.employeeName);
             } catch (error) {

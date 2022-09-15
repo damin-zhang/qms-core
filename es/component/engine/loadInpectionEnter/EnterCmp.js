@@ -525,7 +525,7 @@ var EnterCmp = function EnterCmp(_ref) {
           switch (_context4.prev = _context4.next) {
             case 0:
               // 保存缺陷表单
-              value = defectRef?.current?.getForm()?.getFieldsValue();
+              value = defectRef && defectRef.current && defectRef.current.getForm() && defectRef.current.getForm().getFieldsValue();
               commonApi({
                 implClass: 'inspect.IQCFillInBadDescriptionEvent',
                 objectNo: objectNo,
@@ -1168,7 +1168,7 @@ var EnterCmp = function EnterCmp(_ref) {
         while (1) {
           switch (_context7.prev = _context7.next) {
             case 0:
-              value = defectRef?.current?.getForm()?.getFieldsValue();
+              value = defectRef && defectRef.current && defectRef.current.getForm() && defectRef.current.getForm().getFieldsValue();
               _context7.next = 3;
               return commonApi({
                 implClass: 'inspect.IQCFillInBadDescriptionEvent',
@@ -1320,11 +1320,11 @@ var EnterCmp = function EnterCmp(_ref) {
 
 
   var cancelDefectForm = function cancelDefectForm() {
-    var value = defectRef?.current?.getForm()?.getFieldsValue();
+    var value = defectRef && defectRef.current && defectRef.current.getForm() && defectRef.current.getForm().getFieldsValue();
     var defectChange = false;
 
     for (var key in value) {
-      if (value[key] !== defectFormProps?.record[key]) defectChange = true;
+      if (value[key] !== (defectFormProps && defectFormProps.record[key])) defectChange = true;
     }
 
     if (defectChange) {

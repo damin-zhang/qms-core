@@ -790,12 +790,12 @@ var Header = function Header(_ref) {
     style: {
       fontWeight: '600'
     }
-  }, aboutUsInfo?.aboutUsTitle), /*#__PURE__*/React.createElement("li", {
+  }, aboutUsInfo && aboutUsInfo.aboutUsTitle), /*#__PURE__*/React.createElement("li", {
     onClick: showModal
-  }, aboutUsInfo?.VersionNumber), /*#__PURE__*/React.createElement("li", null, aboutUsInfo?.CopyrightZ, "\xA0", /*#__PURE__*/React.createElement("a", {
-    href: aboutUsInfo?.web,
+  }, aboutUsInfo && aboutUsInfo.VersionNumber), /*#__PURE__*/React.createElement("li", null, aboutUsInfo && aboutUsInfo.CopyrightZ, "\xA0", /*#__PURE__*/React.createElement("a", {
+    href: aboutUsInfo && aboutUsInfo.web,
     target: "_blank"
-  }, config.website)), /*#__PURE__*/React.createElement("li", null, aboutUsInfo?.Copyright)))), /*#__PURE__*/React.createElement(DragModal, {
+  }, config.website)), /*#__PURE__*/React.createElement("li", null, aboutUsInfo && aboutUsInfo.Copyright)))), /*#__PURE__*/React.createElement(DragModal, {
     visible: isModalVisible,
     title: VersionTitle,
     width: '60%',

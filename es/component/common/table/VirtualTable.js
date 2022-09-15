@@ -53,7 +53,7 @@ var VirtualTable = function VirtualTable(props) {
     Object.defineProperty(obj, 'scrollLeft', {
       get: function get() {
         if (gridRef.current) {
-          return gridRef.current?.state?.scrollLeft;
+          return gridRef.current && gridRef.current.state && gridRef.current.state.scrollLeft;
         }
 
         return null;

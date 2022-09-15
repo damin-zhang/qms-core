@@ -101,7 +101,7 @@ var AntdProTable = function AntdProTable(props) {
       params = model.params,
       condition = model.condition,
       sortFields = model.sortFields;
-  if (engine?.objectGrid?.noTableToolbar) rest.toolBarRender = false;
+  if (engine && engine.objectGrid && engine.objectGrid.noTableToolbar) rest.toolBarRender = false;
   /* 表格列超出20列隐藏显示 */
 
   useEffect(function () {

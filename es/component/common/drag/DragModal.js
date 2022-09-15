@@ -132,7 +132,7 @@ var DragModal = function DragModal(_ref) {
     var _window$document$docu = window.document.documentElement,
         clientWidth = _window$document$docu.clientWidth,
         clientHeight = _window$document$docu.clientHeight;
-    var targetRect = draggleRef.current?.getBoundingClientRect();
+    var targetRect = draggleRef.current && draggleRef.current.getBoundingClientRect();
 
     if (!targetRect) {
       return;

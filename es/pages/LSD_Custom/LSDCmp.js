@@ -81,7 +81,7 @@ function LSDCmp(_ref) {
       }],
       tableName: 'SLM_IQC'
     }).then(function (data) {
-      if (data?.flag) {
+      if (data && data.flag) {
         setDataList(data.dataList);
       }
 
