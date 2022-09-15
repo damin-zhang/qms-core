@@ -4,7 +4,7 @@
 var routers = [{
   path: '/',
   title: false,
-  component: '@/layouts/index'
+  component: '@/pages/index'
 }, {
   path: '/login',
   title: false,

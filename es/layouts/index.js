@@ -12,7 +12,7 @@ import Menu from './menu/menu';
 import Authornized from '../component/authorized/Authorized'; //是否登录验证组件
 
 import WebSocket from './websocket/webSocket';
-import styles from './index.css';
+import styles from './index.module.css';
 import language from '@/locale/language';
 import Tab from './tab/tab';
 import { HashRouter } from 'react-router-dom';

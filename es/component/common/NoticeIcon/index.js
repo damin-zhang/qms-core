@@ -108,13 +108,13 @@ var NoticeIcon = function NoticeIcon(props) {
       overflowCount = props.overflowCount,
       theme = props.theme;
 
-  var _ref = useMergeValue < boolean > (false, {
+  var _useMergeValue = useMergeValue(false, {
     value: props.popupVisible,
     onChange: props.onPopupVisibleChange
   }),
-      _ref2 = _slicedToArray(_ref, 2),
-      visible = _ref2[0],
-      setVisible = _ref2[1];
+      _useMergeValue2 = _slicedToArray(_useMergeValue, 2),
+      visible = _useMergeValue2[0],
+      setVisible = _useMergeValue2[1];
 
   var noticeButtonClass = classNames(className, styles.noticeButton);
   var notificationBox = getNotificationBox();
